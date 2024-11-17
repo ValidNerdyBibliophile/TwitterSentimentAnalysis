@@ -1,0 +1,33 @@
+# Python compiled files
+*.py[cod]
+__pycache__/
+*.pyo
+
+# Log files
+*.log
+
+# Environment files
+.kaggle/
+.env*/
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Model and vectorizer files
+model/*.pkl
+
+# Dataset and processed data
+sentiment140/*.csv
+
+# Static files
+static/*.html
+*.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled files or cache
+*.egg-info/
+.eggs/
